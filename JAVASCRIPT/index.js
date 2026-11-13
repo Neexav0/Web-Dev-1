@@ -1,3 +1,13 @@
 console.log("Welcome to External Javascript");
 console.warn("This is an external warning message");
 console.error("this is an external error message");
+const personName = "Rahul";
+const age = 25;
+const phone = "1234567890";
+const city = "New Delhi";
+console.log("************ Person Details ************");
+console.log("Name : ", personName);
+console.log("Age : ", age);
+console.log("Phone : ", phone);
+console.log("City : ", city);
+console.log("*****************************************");
