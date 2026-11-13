@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overlapping Boxes</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: 1000px;
+            height: 700px;
+            margin: 50px auto;
+        }
+
+        .box {
+            position: absolute;
+            width: 400px;
+            height: 250px;
+        }
+
+        .box1 {
+            background-color: #9bcfe3;
+            top: 0;
+            left: 50px;
+            z-index: 1;
+        }
+
+        .box2 {
+            background-color: #4eb1d2;
+            top: 120px;
+            left: 180px;
+            z-index: 2;
+        }
+
+        .box3 {
+            background-color: #079ed0;
+            top: 270px;
+            left: 330px;
+            z-index: 3;
+        }
+
+        .number {
+            color: white;
+            font-size: 90px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box box1">
+            <div class="number">1</div>
+        </div>
+
+        <div class="box box2">
+            <div class="number">2</div>
+        </div>
+
+        <div class="box box3">
+            <div class="number">3</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
